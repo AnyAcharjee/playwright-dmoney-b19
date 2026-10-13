@@ -101,9 +101,13 @@ The test suite doesn't connect to a database and has no database configuration. 
 
 If you need to check or reset data directly in the backend database, use the dMoney backend's own setup and credentials.
 
-## Troubleshooting
+## Test Report
 
-- **Connection refused or timeouts:** make sure the frontend (port 3000) and API (port 5000) are running.
-- **Admin or SYSTEM login fails:** check that the seeded accounts exist and use password `1234`.
-- **OTP step fails:** `0000` works only in the dev environment (`/login?env=dev`).
-- **Cash In fails with a funding error:** the Agent needs the 2000 Tk deposit from the earlier test, so run the whole file.
+<img width="1231" height="827" alt="test_report" src="https://github.com/user-attachments/assets/02d01c88-9680-496a-82a5-b300043957b6" />
+
+## Automation Video
+
+https://github.com/user-attachments/assets/bf63c302-e1e6-4535-87de-b415c9da7239
+
+
+
